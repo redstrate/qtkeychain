@@ -121,7 +121,7 @@ else()
   set(QTCORE_LIBRARIES ${Qt6Core_LIBRARIES})
 endif()
 
-set(QTKEYCHAIN_TARGET_NAME qt${QTKEYCHAIN_VERSION_INFIX}keychain)
+set(QTKEYCHAIN_TARGET_NAME q${QTKEYCHAIN_VERSION_INFIX}keychain)
 
 add_subdirectory(qtkeychain)
 
